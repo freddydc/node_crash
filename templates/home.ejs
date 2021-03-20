@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Node JS</title>
+</head>
+<body>
+	<h2">Your favorite color in ejs!</h2>
+	<p>Welcome to ejs form!</p>
+	<div>
+		<form action="/coulor" method="POST">
+		<input type="text" name="colores" id="">
+		<button>Submit Ok</buton>
+	</form>
+	</div>
+	<div>
+	<% if (is_raining) { %>
+		<p>Hay lluvia</p>
+	<% } else { %>
+		<p>No hay lluvia</p>
+	<% } %>
+
+	<% pets.forEach(pet => { %>
+		<li><%= pet.name %> (<%= pet.species %>)</li>
+	<% }) %>
+
+	</div>	
+</body>
+</html>
